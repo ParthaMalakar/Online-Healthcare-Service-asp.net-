@@ -17,6 +17,7 @@ namespace DAL.EF
         public int Id { get; set; }
         public int Did { get; set; }
         public int Pid { get; set; }
+        public string Status { get; set; }
     
         public virtual Doctor Doctor { get; set; }
         public virtual Patient Patient { get; set; }
